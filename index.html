@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="Styles/TicTacToe.css">        
+    </head>
+    <body>
+        <header>
+            <h1>Tic Tac Toe</h1>
+        </header>
+        <main>
+            <div class="divContainer">
+                <div class="gameStatusContainer">
+                    <p id = "gameStatus">Click New Game to start playing!</p>
+                </div>
+                <button type="button" id="newGameButton">New Game</button>
+            </div>
+            <!--table for the tic tac toe grid-->
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="tic_tac_toe_cell top left diagonalDownRight"></td>
+                        <td class="tic_tac_toe_cell top middleHorizontal"></td>
+                        <td class="tic_tac_toe_cell top right diagonalUpRight"></td>
+                    </tr>
+                    <tr>
+                        <td class="tic_tac_toe_cell middleVertical left"></td>
+                        <td class="tic_tac_toe_cell middleVertical middleHorizontal diagonalDownRight diagonalUpRight"></td>
+                        <td class="tic_tac_toe_cell middleVertical right"></td>
+                    </tr>
+                    <tr>
+                        <td class="tic_tac_toe_cell bottom left diagonalUpRight"></td>
+                        <td class="tic_tac_toe_cell bottom middleHorizontal"></td>
+                        <td class="tic_tac_toe_cell bottom right diagonalDownRight "></td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <script src="./Scripts/main.js"></script>
+    </body>
+</html>
