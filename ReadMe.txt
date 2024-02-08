@@ -1,2 +1,1 @@
-Made a change
-This line should only appear on the main branch
+This was my first coding 'project' after I learned HTML5, CSS, and javascript and before I learned Node.js, javascript design patterns, or functional programming concepts. The purpose was to apply what I learned reading various textbooks and to take a break from just reading and doing exercises. Felt good to actually code something even if it was as rudimentary as a Tic Tac Toe game.
